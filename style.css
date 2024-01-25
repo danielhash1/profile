@@ -1,0 +1,109 @@
+/* Main styles */
+body {
+  font-weight: 400;
+  background-color: #dcdcdc;
+
+  width: 100%;
+}
+
+.container {
+  width: 800px;
+  margin: 0 auto;
+}
+
+h1 {
+  font-weight: 500;
+}
+
+p {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: rgb(111, 111, 111);
+}
+
+a {
+  font-family: 'Kanit', sans-serif;
+  font-weight: 100;
+
+  transition: 0.2s ease-in-out;
+}
+
+.txt-header {
+  font-family: 'Kanit', sans-serif;
+  font-size: 22px;
+
+}
+
+.section-card {
+  background-color: #ffffff;
+  border: 1px solid lightgrey;
+  border-radius: 5px;
+  box-shadow: -1px 7px 21px 13px rgba(177, 0, 0, 0.01);
+
+  padding: 20px;
+  width: 100%;
+  margin-top: 30px;
+  text-align: center;
+}
+
+.img-profile {
+  width: 200px;
+  border-radius: 50%;
+
+  border: 6px rgb(0, 215, 115) dotted;
+}
+
+#btn-watch {
+  background-color: rgb(0, 212, 106);
+  box-shadow: 0px 4px 10px 6px rgba(177, 0, 0, 0.1);
+  border-radius: 8px;
+  color: #ffffff;
+  text-decoration: none;
+
+  margin: 10px;
+  display: inline-block;
+  padding: 16px 20px;
+}
+
+#btn-watch:hover {
+  background-color: rgb(0, 179, 90);
+}
+
+.links-list  {
+  list-style: none;
+
+  padding-left: 0;
+}
+
+.links-list li {
+  display: inline-block;
+  margin: 0 20px;
+}
+
+.links-list li a {
+  color: #00000083;
+  font-size: 30px;
+}
+
+.links-list li a:hover {
+  color: #000000;
+}
+
+
+/* Adaptive styles */
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
